@@ -11,7 +11,7 @@ I'm on a small IT team at a food manufacturer. Everyone on the team covers every
 |---|---|---|---|
 | [Production dashboard kiosks](projects/production-dashboard-kiosks/) | PowerShell kiosk setup for production floor OEE displays: auto-login, auto sign-in, scheduled refresh, and self-healing | Rolling out | Owner |
 | [Visitor sign-in kiosk](projects/visitor-sign-in-kiosk/) | Visitor sign-in and driver check-in flows on Microsoft Forms, Power Automate, and SharePoint | Live | Built and maintain |
-| [NDA sync to SharePoint](projects/nda-sync/) | Replaced paper visitor NDAs with an Acrobat Sign web form and a scheduled Power Automate flow that files signed NDAs in SharePoint without duplicates | Live | Built |
+| [NDA sync to SharePoint](projects/nda-sync/) | Replaced paper visitor NDAs with an Acrobat Sign web form. Event-driven Power Automate flows file each signed NDA in SharePoint and send an alert when a run fails | Live | Built |
 | [macOS pilot evaluation](projects/macos-pilot-evaluation/) | Line-of-business app check, MDM selection, and pilot plan for a small Mac fleet | Evaluation complete | Owner |
 | [MSP to in-house migration](projects/msp-to-in-house-migration/) | Moving security, backup, RMM, and monitoring off a managed service provider, including a forced removal script for the old remote-access client | Complete | Assisted, then took ownership |
 | [QNAP RAID recovery on Linux](projects/qnap-raid-recovery/) | Read-only recovery of a QNAP RAID set on an isolated Linux box: block-level write lock, read-only mdadm assembly and mount, SMART checks, and a malware scan before copying data out | Runbook | Built the lab and wrote the runbook |
